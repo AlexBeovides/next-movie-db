@@ -1,0 +1,45 @@
+/* styles/Card.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Poppins:wght@200;300;400&display=swap');
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    border: 1px solid #89c2d9;
+    min-height: 16vh;
+    width: 90vw;
+    padding: 10px;
+    margin: 10px 0 10px 10px;
+    background-color: #c4ddf1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  
+  .cardImage {
+    width: 120px; 
+    height: 100%;  
+    margin-right: 15px; 
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+  }
+  
+  .cardTitle {
+    font-family: 'Poppins', serif;;
+    /* font-weight: bold; */
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+  
+  .cardDescription {
+    font-family: 'Poppins', serif;
+    font-weight: 300;
+    /* flex-grow: 1; */
+  }
+  
+  .cardText {
+
+  }
