@@ -1,6 +1,122 @@
 /* styles/MovieDetail.module.css or alongside [id].js */
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Poppins:wght@200;300;400&display=swap');
 .detailContainer {
     /* your styles */
-    margin-top: 12vh;
+    margin-top: 10vh;
+    width: 100vw;
+    /* height: 125vh; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', serif;
+    
   }
+
+.imageContainer {
+  width: 100vw;
+  height: 60vh;
+  object-fit:fill;
+}
+
+.detailImage{
+  width: 100vw;
+  height: 60vh;
+  object-fit:fill;
+}
+
+.header {
+margin-bottom:0; 
+}
+
+.infoContainer {
+  padding-inline: 2vw;
+}
+
+.infoContainer i {
+  color: gray;
+}
+
+.content {
+  margin-top: 0; 
+  padding: 0;
+}
+
+.extraData {
+  padding-inline: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.extraData .header {
+  font-weight: bold;
+}
   
+@media only screen and (min-width: 450px) {
+
+  .overallCont {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.detailContainer {
+  background-color: rgba(210, 208, 208, 0.452);
+  padding-block: 40px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline:2vw;
+  box-shadow: rgba(125, 127, 127, 0.12) 0px 0px 3px 0px, rgba(157, 159, 159, 0.32) 0px 0px 3px 0px;
+
+}
+.imageContainer {
+  width: 35vw;
+  height: 60vh;
+  object-fit:fill;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+
+.detailImage{
+  width: 35vw;
+  height: 60vh;
+  object-fit:fill;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+
+
+
+.extraData div {
+  font-size: 0.9rem;
+}
+
+.extraData div .header{
+
+  text-decoration: underline;
+}
+
+
+}
+
+@media only screen and (min-width: 820px) {
+
+  #overviewH {
+    margin-top: 30px;
+  }
+#overviewC {
+  margin-bottom: 30px;
+}
+  .extraData div {
+    background-color: rgba(170, 169, 169, 0.21);
+    border-radius: 10px;
+    
+    padding-inline: 20px;
+    font-size:medium; 
+
+  }
+}

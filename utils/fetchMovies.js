@@ -4,7 +4,7 @@ const fetchMovies = async () => {
   try {
     const response = await axios.get('https://api.themoviedb.org/3/movie/popular', {
       params: {
-        api_key: '3c6edbb90c6f1231acbfa7eb66477081',        // DELETE THIS SHIT
+        api_key: 'YOUR API KEY',       
       }
     });
     return response.data.results;
